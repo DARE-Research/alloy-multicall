@@ -1,0 +1,15 @@
+[package]
+name = "alloy-multicall"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy = {version = "0.2.0",  features = [
+    "full",
+]}
+alloy-primitives = "0.7.7"
+alloy-sol-types = "0.7.7"
+futures = "0.3.30"
+futures-util = "0.3.30"
+oneshot = "0.1.8"
+tokio = "1.39.0"
